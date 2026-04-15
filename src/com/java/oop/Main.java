@@ -38,7 +38,7 @@ public class Main {
         System.out.println("id =" + product2.id);
         System.out.println("name =" + product2.name);
         System.out.println("reviewscount =" + product2.reviewsCount);
-        System.out.println("isAvailable =" + product2.isAvailable);
+        System.out.println("isAvailable  =" + product2.isAvailable);
         System.out.println("company =" + product2.company);
         System.out.println("category =" + product2.category);
         System.out.println("ratings =" + product2.ratings);
