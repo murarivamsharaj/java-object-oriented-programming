@@ -9,4 +9,24 @@ public class CustomerDetails {
     String address;
     String email;
 
+    public CustomerDetails(int id, String name, long contactNo, byte age, boolean isActive, String address, String email) {
+        this.id = id;
+        this.name = name;
+        this.contactNo = contactNo;
+        this.age = age;
+        this.isActive = isActive;
+        this.address = address;
+        this.email = email;
+    }
+
+    CustomerDetails(){
+        id = 29;
+        name = "Murari";
+        contactNo = 9384298347L;
+        age = 24;
+        address = "Madhapur";
+        email = "chmurari73@gmail.com";
+
+
+    }
 }

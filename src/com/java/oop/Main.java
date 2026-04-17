@@ -1,6 +1,9 @@
 package com.java.oop;
 
 public class Main {
+    public Main() {
+    }
+
     static void main() {
         Product product = new Product();
         product.id = 9702;
@@ -44,5 +47,24 @@ public class Main {
         System.out.println("ratings =" + product2.ratings);
         System.out.println("max retail price =" + product2.maxRetailPrice);
         System.out.println("Discount percentage = " + product2.discountPercentage);
+        System.out.println("\n");
+
+        CustomerDetails customer = new CustomerDetails();
+        System.out.println("id " + customer.id);
+        System.out.println("name " + customer.name);
+        System.out.println("contact no" + customer.contactNo);
+        System.out.println("age " + customer.age);
+        System.out.println("isactive" + customer.isActive);
+        System.out.println("address" + customer.address);
+        System.out.println("email" + customer.email);
+
+        CustomerDetails customer2 = new CustomerDetails(67, "School", 8767869L, (byte) 67, false, "jublee hills", "ygggibi@gmail.com");
+        System.out.println("id " + customer2.id);
+        System.out.println("name" + customer2.name);
+        System.out.println("contact no" + customer2.contactNo);
+        System.out.println("age" + customer2.age);
+        System.out.println("isactive " + customer2.isActive);
+
     }
-}
+    }
+
