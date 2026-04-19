@@ -72,6 +72,11 @@ public class Main {
         System.out.println("contact  no" + customer3.contactNo);
         System.out.println("age" + customer3.age);
         System.out.println("isactive  " + customer3.isActive);
+
+        Order order = new Order(34,687869,"Monday", true);
+        System.out.println("orderId =" + order.orderId);
+        System.out.println("orderOtp =" + order.orderOtp);
+        System.out.println("orderDay =" + order.isPersonAvailable);
     }
     }
 

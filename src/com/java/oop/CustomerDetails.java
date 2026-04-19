@@ -20,13 +20,6 @@ public class CustomerDetails {
     }
 
     CustomerDetails(){
-        id = 29;
-        name = "Murari";
-        contactNo = 9384298347L;
-        age = 24;
-        address = "Madhapur";
-        email = "chmurari73@gmail.com";
-
 
     }
 }
