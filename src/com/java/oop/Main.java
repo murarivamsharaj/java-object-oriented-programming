@@ -58,7 +58,7 @@ public class Main {
         System.out.println("address" + customer.address);
         System.out.println("email" + customer.email);
 
-        CustomerDetails customer2 = new CustomerDetails(67, "School", 8767869L, (byte) 67, false, "jublee hills", "ygggibi@gmail.com");
+        CustomerDetails customer2 = new CustomerDetails(67, "rahul", 8767869L, (byte) 67, false, "jublee hills", "ygggibi@gmail.com");
         System.out.println("id  " + customer2.id);
         System.out.println("name " + customer2.name);
         System.out.println("contact no" + customer2.contactNo);
@@ -66,7 +66,12 @@ public class Main {
         System.out.println("isactive " + customer2.isActive);
 
 
-        CustomerDetails customer3 = new CustomerDetails();
+        CustomerDetails customer3 = new CustomerDetails(87,"sanjay",89374828L,(byte)78,true,"madhapur","kjhsiero8@gmail.com");
+        System.out.println("id  " + customer3.id);
+        System.out.println("name " + customer3.name);
+        System.out.println("contact no" + customer3.contactNo);
+        System.out.println("age" + customer3.age);
+        System.out.println("isactive " + customer3.isActive);
     }
     }
 
