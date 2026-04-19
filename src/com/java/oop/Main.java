@@ -21,7 +21,7 @@ public class Main {
         System.out.println("reviewscount =" + product.reviewsCount);
         System.out.println("isAvailable =" + product.isAvailable);
         System.out.println("company =" + product.company);
-        System.out.println("category =" + product.category);
+        System.out.println("category  =" + product.category);
         System.out.println("ratings =" + product.ratings);
         System.out.println("max retail price =" + product.maxRetailPrice);
         System.out.println("Discount percentage = " + product.discountPercentage);
