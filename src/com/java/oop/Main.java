@@ -71,7 +71,7 @@ public class Main {
         System.out.println("name " + customer3.name);
         System.out.println("contact no" + customer3.contactNo);
         System.out.println("age" + customer3.age);
-        System.out.println("isactive " + customer3.isActive);
+        System.out.println("isactive  " + customer3.isActive);
     }
     }
 
