@@ -50,13 +50,13 @@ public class Main {
         System.out.println("\n");
 
         CustomerDetails customer = new CustomerDetails();
-        System.out.println("id " + customer.id);
-        System.out.println("name " + customer.name);
-        System.out.println("contact no" + customer.contactNo);
-        System.out.println("age " + customer.age);
-        System.out.println("isactive" + customer.isActive);
-        System.out.println("address" + customer.address);
-        System.out.println("email" + customer.email);
+        System.out.println("id =" + customer.id);
+        System.out.println("name  =" + customer.name);
+        System.out.println("contact no =" + customer.contactNo);
+        System.out.println("age =" + customer.age);
+        System.out.println("isactive =" + customer.isActive);
+        System.out.println("address =" + customer.address);
+        System.out.println("email =" + customer.email);
 
         CustomerDetails customer2 = new CustomerDetails(67, "rahul", 8767869L, (byte) 67, false, "jublee hills", "ygggibi@gmail.com");
         System.out.println("id  " + customer2.id);
