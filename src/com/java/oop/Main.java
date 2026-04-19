@@ -69,7 +69,7 @@ public class Main {
         CustomerDetails customer3 = new CustomerDetails(87,"sanjay",89374828L,(byte)78,true,"madhapur","kjhsiero8@gmail.com");
         System.out.println("id  " + customer3.id);
         System.out.println("name " + customer3.name);
-        System.out.println("contact no" + customer3.contactNo);
+        System.out.println("contact  no" + customer3.contactNo);
         System.out.println("age" + customer3.age);
         System.out.println("isactive  " + customer3.isActive);
     }
