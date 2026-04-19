@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Discount percentage = " + product2.discountPercentage);
         System.out.println("\n");
 
-        CustomerDetails customer = new CustomerDetails();
+        CustomerDetails customer = new CustomerDetails(22,"arun",83479298L,(byte)78,true,"pedhamma gudi", "arun@gmail.com");
         System.out.println("id =" + customer.id);
         System.out.println("name  =" + customer.name);
         System.out.println("contact no =" + customer.contactNo);
@@ -57,6 +57,7 @@ public class Main {
         System.out.println("isactive =" + customer.isActive);
         System.out.println("address =" + customer.address);
         System.out.println("email =" + customer.email);
+        System.out.println("\n");
 
         CustomerDetails customer2 = new CustomerDetails(67, "rahul", 8767869L, (byte) 67, false, "jublee hills", "ygggibi@gmail.com");
         System.out.println("id  " + customer2.id);
@@ -64,6 +65,7 @@ public class Main {
         System.out.println("contact no" + customer2.contactNo);
         System.out.println("age" + customer2.age);
         System.out.println("isactive " + customer2.isActive);
+        System.out.println("\n");
 
 
         CustomerDetails customer3 = new CustomerDetails(87,"sanjay",89374828L,(byte)78,true,"madhapur","kjhsiero8@gmail.com");
@@ -72,11 +74,28 @@ public class Main {
         System.out.println("contact  no" + customer3.contactNo);
         System.out.println("age" + customer3.age);
         System.out.println("isactive  " + customer3.isActive);
+        System.out.println("\n");
 
-        Order order = new Order(34,687869,"Monday", true);
+        CustomerDetails customer4 = new CustomerDetails(35,"anil",8937564828L,(byte)21,false,"shameerpet","anil8@gmail.com");
+        System.out.println("id  " + customer4.id);
+        System.out.println("name " + customer4.name);
+        System.out.println("contact  no" + customer4.contactNo);
+        System.out.println("age" + customer4.age);
+        System.out.println("isactive  " + customer4.isActive);
+        System.out.println("\n");
+
+
+        Order order = new Order(34,687869L,"Monday", true);
         System.out.println("orderId =" + order.orderId);
-        System.out.println("orderOtp =" + order.orderOtp);
+        System.out.println("orderOtp  =" + order.orderOtp);
         System.out.println("orderDay =" + order.isPersonAvailable);
+        System.out.println("\n");
+
+        Order order2 = new Order(12, 343423L, "Tuesday",false);
+        System.out.println("orderId =" + order2.orderId);
+        System.out.println("orderOtp =" + order2.orderOtp);
+        System.out.println("orderDay =" + order2.isPersonAvailable);
+        System.out.println("\n");
     }
     }
 
