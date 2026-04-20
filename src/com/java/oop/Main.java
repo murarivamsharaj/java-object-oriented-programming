@@ -91,7 +91,13 @@ public class Main {
         System.out.println("orderDay =" + order.isPersonAvailable);
         System.out.println("\n");
 
-        Order order2 = new Order(12, 343423L, "Tuesday",false);
+        Order order1 = new Order(12, 343423L, "Tuesday",false);
+        System.out.println("orderId =" + order1.orderId);
+        System.out.println("orderOtp =" + order1.orderOtp);
+        System.out.println("orderDay =" + order1.isPersonAvailable);
+        System.out.println("\n");
+
+        Order order2 = new Order(32,62738L,"Wednesday",false);
         System.out.println("orderId =" + order2.orderId);
         System.out.println("orderOtp =" + order2.orderOtp);
         System.out.println("orderDay =" + order2.isPersonAvailable);
