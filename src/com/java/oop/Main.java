@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Discount percentage = " + product2.discountPercentage);
         System.out.println("\n");
 
-        CustomerDetails customer = new CustomerDetails(22,"arun",83479298L,(byte)78,true,"pedhamma gudi", "arun@gmail.com");
+        CustomerDetails customer = new CustomerDetails(22, "arun", 83479298L, (byte) 78, true, "pedhamma gudi", "arun@gmail.com");
         System.out.println("id =" + customer.id);
         System.out.println("name  =" + customer.name);
         System.out.println("contact no =" + customer.contactNo);
@@ -68,7 +68,7 @@ public class Main {
         System.out.println("\n");
 
 
-        CustomerDetails customer3 = new CustomerDetails(87,"sanjay",89374828L,(byte)78,true,"madhapur","kjhsiero8@gmail.com");
+        CustomerDetails customer3 = new CustomerDetails(87, "sanjay", 89374828L, (byte) 78, true, "madhapur", "kjhsiero8@gmail.com");
         System.out.println("id  " + customer3.id);
         System.out.println("name " + customer3.name);
         System.out.println("contact  no" + customer3.contactNo);
@@ -76,7 +76,7 @@ public class Main {
         System.out.println("isactive  " + customer3.isActive);
         System.out.println("\n");
 
-        CustomerDetails customer4 = new CustomerDetails(35,"anil",8937564828L,(byte)21,false,"shameerpet","anil8@gmail.com");
+        CustomerDetails customer4 = new CustomerDetails(35, "anil", 8937564828L, (byte) 21, false, "shameerpet", "anil8@gmail.com");
         System.out.println("id  " + customer4.id);
         System.out.println("name " + customer4.name);
         System.out.println("contact  no" + customer4.contactNo);
@@ -85,23 +85,29 @@ public class Main {
         System.out.println("\n");
 
 
-        Order order = new Order(34,687869L,"Monday", true);
+        Order order = new Order(34, 687869L, "Monday", true);
         System.out.println("orderId =" + order.orderId);
         System.out.println("orderOtp  =" + order.orderOtp);
         System.out.println("orderDay =" + order.isPersonAvailable);
         System.out.println("\n");
 
-        Order order1 = new Order(12, 343423L, "Tuesday",false);
+        Order order1 = new Order(12, 343423L, "Tuesday", false);
         System.out.println("orderId =" + order1.orderId);
         System.out.println("orderOtp =" + order1.orderOtp);
         System.out.println("orderDay =" + order1.isPersonAvailable);
         System.out.println("\n");
 
-        Order order2 = new Order(32,62738L,"Wednesday",false);
+        Order order2 = new Order(32, 62738L, "Wednesday", false);
         System.out.println("orderId =" + order2.orderId);
-        System.out.println("orderOtp =" + order2.orderOtp);
+        System.out.println("orderOtp  =" + order2.orderOtp);
         System.out.println("orderDay =" + order2.isPersonAvailable);
         System.out.println("\n");
+
+        ShippingPartner shipping = new ShippingPartner("rohit", false, 39874982L, "Sunday");
+        System.out.println("deliveryPartner =" + shipping.deliveryPartner);
+        System.out.println("partnerNo =" + shipping.partnerNo);
+        System.out.println("is delivery going to done today =" + shipping.partnerNo);
+        System.out.println("Delivery day =" + shipping.deliveryDay);
     }
-    }
+}
 
