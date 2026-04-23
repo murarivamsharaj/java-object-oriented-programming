@@ -12,14 +12,14 @@ public class Methods {
     static void main() {
         Methods methods = new Methods();
         methods.displayProductDetails();
-        int i = methods.multiplyNumbers(2,5);
+        int i = methods.multiplyNumbers(6,8);
         System.out.println("print i:" + i);
 
     }
     void displayProductDetails() {
         System.out.println("Product Name: " + name);
         System.out.println("MRP: " + maxRetailPrice);
-        System.out.println("Available Stock: " + availableStock);
+        System.out.println("Available Stock : " + availableStock);
     }
     int multiplyNumbers(int a,int b) {
         int x = a * b;
