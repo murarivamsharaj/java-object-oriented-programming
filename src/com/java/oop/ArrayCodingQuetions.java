@@ -18,7 +18,7 @@ public class ArrayCodingQuetions {
     public static void printAscending(int[] productPrices) {
         Arrays.sort(productPrices);
 
-        System.out.print("Prices in Ascending Order: ");
+        System.out.print("Prices in Ascending  Order: ");
         for (int price : productPrices) System.out.print(price + " ");
         System.out.println();
     }
