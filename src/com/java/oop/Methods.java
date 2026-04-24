@@ -1,7 +1,5 @@
 package com.java.oop;
 
-import javax.xml.namespace.QName;
-
 public class Methods {
 
     String name = "Murari";
