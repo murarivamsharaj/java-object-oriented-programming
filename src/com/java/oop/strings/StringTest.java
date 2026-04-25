@@ -4,7 +4,7 @@ import com.java.oop.Product;
 
 public class StringTest {
     StringTest(){
-        System.out.println("My String constructor");
+        System.out.println("My String  constructor");
     }
     public static void main(String[] args) {
         //com.java.oop.strings.String
@@ -14,10 +14,10 @@ public class StringTest {
         System.out.println(str);
 
         String str1 = new String();
-        System.out.println("str1: " + str1);
+        System.out.println("str1 : " + str1);
         char[] chars = {'a', 'b', 'c'};
         String str2 = new String(chars);
-        System.out.println("str2: " + str2);
+        System.out.println("str2 : " + str2);
         String str3 = new String("abc");
         System.out.println("str3: " + str3);
 
