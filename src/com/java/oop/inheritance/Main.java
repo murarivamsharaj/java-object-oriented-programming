@@ -11,7 +11,7 @@ public class Main {
 
         MobilePhone phone = new MobilePhone();
         System.out.println("Id : " + phone.id + " Name : " + phone.name);
-        System.out.println("Camera In Pixels : " + phone.cameraInPixels);
+        System.out.println("Camera   In Pixels : " + phone.cameraInPixels);
 
         Laptop laptop2 = new Laptop(2, "Dell Laptop", 1000, 10, 4.5f, 100, "Dell", "Laptop", 1024, "Windows");
         laptop2.displayDetails();
