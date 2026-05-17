@@ -9,7 +9,7 @@ public class RegularCustomer extends Customer {
 
     void displayCustomerDetails() {
         super.displayCustomerDetails();
-        System.out.println("show cash back points :" + cashBackPoints);
+        System.out.println("show cash  back points :" + cashBackPoints);
     }
 }
 
