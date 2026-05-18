@@ -16,7 +16,7 @@ public class Main {
         Product product = new Product();
 
         product.setId(51);
-        product.setName("Samsung TV");
+        product.setName("Samsung  TV");
         product.setMaxRetailPrice(32432);
         product.setDiscountPercentage(10);
         product.setAvailable(true);
