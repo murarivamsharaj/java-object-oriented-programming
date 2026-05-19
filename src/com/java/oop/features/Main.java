@@ -16,6 +16,7 @@ public class Main {
         //premiumCustomer.displayCustomerDetails();
         CustomerService customerService = new CustomerService();
         customerService.displayCustomerDetails(customer1);
+        customerService.displayCustomerDetails(regularCustomer);
     }
 }
 
