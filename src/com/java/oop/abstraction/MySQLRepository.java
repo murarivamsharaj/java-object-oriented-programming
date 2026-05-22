@@ -1,14 +1,14 @@
 package com.java.oop.abstraction;
 
-public class MySQLRepository extends Repository{
-    @Override
-    void connectToDb() {
-        System.out.println("Connection to mysql successfully");
+public class MySQLRepository implements Repository{
 
+    @Override
+    public void connectToDb() {
+        System.out.println("connect to MYSQL database successfully");
     }
 
     @Override
-    void addCustomerTodb(Customer customer) {
-        System.out.println("customer add to MYSQL database successfully");
+    public void addCustomerTodb(Customer customer) {
+        System.out.println("adding customer to MYSQL database successfully");
     }
 }

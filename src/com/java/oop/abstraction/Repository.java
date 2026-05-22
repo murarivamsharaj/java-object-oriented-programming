@@ -1,10 +1,10 @@
 package com.java.oop.abstraction;
 
-public abstract class Repository {
+public interface  Repository {
 
-    abstract void connectToDb();
+     void connectToDb();
 
-        abstract void addCustomerTodb(Customer customer);
+         void addCustomerTodb(Customer customer);
 
     }
 

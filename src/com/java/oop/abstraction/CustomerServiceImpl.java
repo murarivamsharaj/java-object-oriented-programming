@@ -10,7 +10,7 @@ public class CustomerServiceImpl extends CustomerService {
 
     @Override
     void addCustomertoDb(Customer customer) {
-repository.connectToDb();
-repository.addCustomerTodb(customer);
+        repository.connectToDb();
+        repository.addCustomerTodb(customer);
     }
 }

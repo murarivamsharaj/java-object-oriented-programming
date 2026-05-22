@@ -3,6 +3,21 @@ package com.java.oop.abstraction;
 public abstract class CustomerService {
 
     abstract void addCustomertoDb(Customer customer);
-       // System.out.println("customer added to MySQL successfully");
+
+    void displayCustomerDetails(Customer customer)
+    {
+        System.out.println("id : "+ customer.id);
+        System.out.println("name :" + customer.name);
+        System.out.println("email :" + customer.email);
+        System.out.println("contctno: " + customer.contactNo);
+        System.out.println("salary :" + customer.salary);
+        System.out.println("age" + customer.age);
+
     }
+
+    // System.out.println("customer added to MySQL successfully");
+
+
+
+}
 
