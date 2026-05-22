@@ -1,0 +1,7 @@
+package com.java.oop;
+
+public class Hello {
+    static void main() {
+        System.out.println("Hello World");
+    }
+}
