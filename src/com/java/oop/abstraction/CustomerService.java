@@ -1,8 +1,8 @@
 package com.java.oop.abstraction;
 
-public class CustomerService {
+public abstract class CustomerService {
 
-    void addCustomeDb(Customer customer){
-        System.out.println("customer added to MySQL successfully");
+    abstract void addCustomertoDb(Customer customer);
+       // System.out.println("customer added to MySQL successfully");
     }
-}
+
