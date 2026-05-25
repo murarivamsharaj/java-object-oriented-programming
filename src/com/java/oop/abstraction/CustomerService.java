@@ -1,12 +1,14 @@
 package com.java.oop.abstraction;
 
-public abstract class CustomerService {
+public  class CustomerService {
 
-    abstract void addCustomertoDb(Customer customer);
+    void addCustomertoDb(Customer customer) {
+
+    }
 
     void displayCustomerDetails(Customer customer)
     {
-        System.out.println("id : "+ customer.id);
+        System.out.println("id   : "+ customer.id);
         System.out.println("name :" + customer.name);
         System.out.println("email :" + customer.email);
         System.out.println("contctno: " + customer.contactNo);
