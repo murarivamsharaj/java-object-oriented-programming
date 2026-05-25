@@ -11,7 +11,7 @@ public  class CustomerService {
         System.out.println("id   : "+ customer.id);
         System.out.println("name :" + customer.name);
         System.out.println("email :" + customer.email);
-        System.out.println("contctno: " + customer.contactNo);
+        System.out.println("contctno:  " + customer.contactNo);
         System.out.println("salary :" + customer.salary);
         System.out.println("age" + customer.age);
 
