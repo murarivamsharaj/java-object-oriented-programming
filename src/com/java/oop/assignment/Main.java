@@ -20,7 +20,7 @@ public class Main {
         product.setMaxRetailPrice(32432);
         product.setDiscountPercentage(10);
         product.setAvailable(true);
-        product.setCompany("Samsung");
+        product.setCompany("Samsung ");
         product.setCategory("TV");
         product.setManufacturedYear(2023);
 
