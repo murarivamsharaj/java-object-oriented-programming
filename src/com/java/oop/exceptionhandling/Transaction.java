@@ -9,8 +9,8 @@ public class Transaction {
             System.out.println("Enter a number :");
             int amountOne = scanner.nextInt();
             System.out.println("Enter another number :");
-            int amoutnTwo = scanner.nextInt();
-            int totalAmount = amountOne / amoutnTwo;
+            int amountTwo = scanner.nextInt();
+            int totalAmount = amountOne / amountTwo;
             System.out.println("what is the result value :" + totalAmount);
         } catch (ArithmeticException e) {
             System.out.println("invalid number ");
