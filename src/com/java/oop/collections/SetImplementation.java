@@ -2,15 +2,20 @@ package com.java.oop.collections;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 public class SetImplementation {
     static void main() {
-        HashSet<String> hashSet = new HashSet<>();
-        hashSet.add("Murari");
-        hashSet.add("Anil");
-        System.out.println(hashSet.size());
-       for (String str : hashSet) {
-           System.out.println(str);
+        TreeSet<String> set = new TreeSet<>();
+        set.add("Murari");
+        set.add("Sujith");
+        set.add("deepak");
+        set.add("Swajal");
+        set.add("Anil");
+        System.out.println(set.size());
+        for (String str : set) {
+            System.out.println(str);
 
         }
     }
