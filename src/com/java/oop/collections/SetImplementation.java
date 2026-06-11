@@ -24,7 +24,7 @@ public class SetImplementation {
 
         Customer customer4 = new Customer();
         customer4.setId(2005);
-        customer4.setName("Sujith");
+        customer4.setName("ABCD");
         customer4.setEmail("sujith@gmail.com");
 
         System.out.println(customer1);
@@ -40,7 +40,7 @@ public class SetImplementation {
         for (String str : set) {
             System.out.println(str);
         }*/
-      HashSet<Customer> customerSet = new HashSet<>();
+      TreeSet<Customer> customerSet = new TreeSet<>();
       customerSet.add(customer1);
       customerSet.add(customer2);
       customerSet.add(customer3);
