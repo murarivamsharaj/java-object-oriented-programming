@@ -11,9 +11,16 @@ public class Employee {
         this.salary = salary;
     }
 
-    public String getName() { return name; }
-    public String getDepartment() { return department; }
-    public double getSalary() { return salary; }
+    public String getName() {
+        return name;
+    }
+    public String getDepartment() {
+
+        return department;
+    }
+    public double getSalary() {
+        return salary;
+    }
 
     @Override
     public String toString() {

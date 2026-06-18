@@ -15,8 +15,11 @@ public class StreamsStudyGuide {
                 new Employee("Bob", "HR", 60000),
                 new Employee("Charlie", "Engineering", 95000),
                 new Employee("Diana", "Marketing", 75000),
-                new Employee("Eve", "Engineering", 110000)
-        );
+                new Employee("Eve", "Engineering", 110000),
+                new Employee("Fred", "Marketing", 120000),
+                new Employee(null, "Bob", 90000),
+                new Employee(null, "Charlie", 120000)
+                );
 
         System.out.println("--- 1. FILTER (Intermediate Operation) ---");
         // Goal: Find all employees in the Engineering department
