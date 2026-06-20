@@ -18,6 +18,8 @@ public class StreamsStudyGuide {
                 new Employee("Eve", "Engineering", 110000),
                 new Employee("Fred", "Marketing", 120000),
                 new Employee(null, "Bob", 90000),
+                new Employee(null, "Charlie", 120000),
+                new Employee(null, "Diana", 90000),
                 new Employee(null, "Charlie", 120000)
                 );
 
