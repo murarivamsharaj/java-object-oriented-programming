@@ -8,6 +8,7 @@ public class LibraryManagementSystem {
 
         Book b1 = new Book("Java Programming", "James Gosling");
         Book b2 = new Book("Spring Boot Guide", "Rod Johnson");
+        Book br = new Book("Frontend development ", "Murari");
 
         library.addBook(b1);
         library.addBook(b2);
